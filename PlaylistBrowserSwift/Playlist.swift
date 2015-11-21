@@ -1,9 +1,8 @@
 //
-//  Playlist.swift
-//  PlaylistBrowserSwift
+//  Samwise development
 //
-//  Created by Pasan Premaratne on 1/12/15.
-//  Copyright (c) 2015 Treehouse. All rights reserved.
+//  Created by Alexander Hipp on 21/11/15.
+//  Copyright (c) 2015 LonelyGoldfish. All rights reserved.
 //
 
 import Foundation
