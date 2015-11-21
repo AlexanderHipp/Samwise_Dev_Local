@@ -18,8 +18,8 @@ struct World {
     var backgroundColor: UIColor = UIColor.clearColor()
     
     init(index: Int) {
-        let musicLibrary = MusicLibrary().library
-        let worldDictionary = musicLibrary[index]
+        let colorLibrary = ColorLibrary().library
+        let worldDictionary = colorLibrary[index]
         
         title = worldDictionary["title"] as! String!
         description = worldDictionary["description"] as! String!

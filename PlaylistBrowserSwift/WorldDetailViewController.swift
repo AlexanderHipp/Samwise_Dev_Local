@@ -26,10 +26,11 @@ class WorldDetailViewController: UIViewController {
             worldCoverImage.backgroundColor = world!.backgroundColor
             worldTitle.text = world!.title
             worldDescription.text = world!.description
+
             
-            worldArtist0.text = world!.artists[0]
-            worldArtist1.text = world!.artists[1]
-            worldArtist2.text = world!.artists[2]
+            // worldArtist0.text = world!.artists[0]
+            // worldArtist1.text = world!.artists[1]
+            // worldArtist2.text = world!.artists[2]
             
         }
         
