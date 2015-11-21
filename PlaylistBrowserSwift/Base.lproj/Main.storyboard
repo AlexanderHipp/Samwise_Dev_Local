@@ -10,7 +10,7 @@
         <!--Worlds-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="PlaylistMasterViewController" customModule="Samwise_Dev" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="WorldMasterViewController" customModule="Samwise_Dev" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -103,44 +103,44 @@
                     </view>
                     <navigationItem key="navigationItem" title="Worlds" id="8Cz-4m-z1i"/>
                     <connections>
-                        <outlet property="playlistImageView0" destination="9gJ-IH-I07" id="oRF-VL-xYu"/>
-                        <outlet property="playlistImageView1" destination="dUQ-z1-80C" id="2dN-8i-6ig"/>
-                        <outlet property="playlistImageView2" destination="TOy-IJ-Csj" id="cad-Us-7jV"/>
-                        <outlet property="playlistImageView3" destination="j9t-db-SGo" id="t3l-gg-tmm"/>
-                        <outlet property="playlistImageView4" destination="VBX-9y-3Yv" id="joL-AQ-eJW"/>
-                        <outlet property="playlistImageView5" destination="p4M-Jb-A02" id="PBI-XJ-urs"/>
-                        <segue destination="5FN-cS-aH5" kind="push" identifier="showPlaylistDetailSegue" id="ZGa-wj-LHm"/>
+                        <outlet property="worldImageView0" destination="9gJ-IH-I07" id="lh8-54-akh"/>
+                        <outlet property="worldImageView1" destination="dUQ-z1-80C" id="oAD-EZ-3LF"/>
+                        <outlet property="worldImageView2" destination="TOy-IJ-Csj" id="FzC-5b-J2Q"/>
+                        <outlet property="worldImageView3" destination="j9t-db-SGo" id="mjL-Zx-9tH"/>
+                        <outlet property="worldImageView4" destination="VBX-9y-3Yv" id="bRt-Nf-UoR"/>
+                        <outlet property="worldImageView5" destination="p4M-Jb-A02" id="hgT-lS-2vs"/>
+                        <segue destination="5FN-cS-aH5" kind="push" identifier="showWorldDetailSegue" id="ZGa-wj-LHm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="AfK-Iw-2Xy">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="vXZ-lx-hvc" id="nw7-11-SV5"/>
+                        <action selector="showWorldDetail:" destination="vXZ-lx-hvc" id="ale-wq-WWI"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="wRf-pz-zVq">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="vXZ-lx-hvc" id="ocx-cY-aNU"/>
+                        <action selector="showWorldDetail:" destination="vXZ-lx-hvc" id="3Tt-ni-Gke"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="T2S-PG-t7p">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="vXZ-lx-hvc" id="PEY-RG-bbf"/>
+                        <action selector="showWorldDetail:" destination="vXZ-lx-hvc" id="DYN-tg-D2v"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="cvO-9e-IzV">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="vXZ-lx-hvc" id="jbi-dw-gBg"/>
+                        <action selector="showWorldDetail:" destination="vXZ-lx-hvc" id="ODR-0X-1Cx"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="aSN-4u-unp">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="vXZ-lx-hvc" id="liV-P0-mm0"/>
+                        <action selector="showWorldDetail:" destination="vXZ-lx-hvc" id="qzw-Wu-UaU"/>
                     </connections>
                 </tapGestureRecognizer>
                 <tapGestureRecognizer id="IQq-5X-78k">
                     <connections>
-                        <action selector="showPlaylistDetail:" destination="vXZ-lx-hvc" id="BAD-Yv-QNL"/>
+                        <action selector="showWorldDetail:" destination="vXZ-lx-hvc" id="AJF-2q-AYh"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -149,7 +149,7 @@
         <!--Artists-->
         <scene sceneID="gXj-uk-law">
             <objects>
-                <viewController id="5FN-cS-aH5" customClass="PlaylistDetailViewController" customModule="Samwise_Dev" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5FN-cS-aH5" customClass="WorldDetailViewController" customModule="Samwise_Dev" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Xos-aK-9gy"/>
                         <viewControllerLayoutGuide type="bottom" id="fKg-Eu-T7S"/>
@@ -245,12 +245,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="nra-5h-xbD"/>
                     <connections>
-                        <outlet property="playlistArtist0" destination="r1H-Ya-tzY" id="7hl-wZ-fZq"/>
-                        <outlet property="playlistArtist1" destination="8aH-fg-Ciz" id="mOQ-Qe-2yL"/>
-                        <outlet property="playlistArtist2" destination="TI7-OA-RAq" id="npj-67-Nzy"/>
-                        <outlet property="playlistCoverImage" destination="2GX-ZX-jQo" id="zEJ-Uo-eln"/>
-                        <outlet property="playlistDescription" destination="G1k-b7-uEH" id="RCH-Jr-4io"/>
-                        <outlet property="playlistTitle" destination="rhh-np-Gvt" id="bn5-Kb-Rdi"/>
+                        <outlet property="worldArtist0" destination="r1H-Ya-tzY" id="Jja-Lj-Bj1"/>
+                        <outlet property="worldArtist1" destination="8aH-fg-Ciz" id="zgE-ed-WQV"/>
+                        <outlet property="worldArtist2" destination="TI7-OA-RAq" id="utO-Go-bwd"/>
+                        <outlet property="worldCoverImage" destination="2GX-ZX-jQo" id="iD3-yO-pFo"/>
+                        <outlet property="worldDescription" destination="G1k-b7-uEH" id="QAo-qn-SIm"/>
+                        <outlet property="worldTitle" destination="rhh-np-Gvt" id="jgT-VB-hyE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QtT-0X-eMH" userLabel="First Responder" sceneMemberID="firstResponder"/>

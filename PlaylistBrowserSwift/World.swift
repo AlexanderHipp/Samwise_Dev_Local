@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-struct Playlist {
+struct World {
     
     var title: String?
     var description: String?
@@ -19,20 +19,20 @@ struct Playlist {
     
     init(index: Int) {
         let musicLibrary = MusicLibrary().library
-        let playlistDictionary = musicLibrary[index]
+        let worldDictionary = musicLibrary[index]
         
-        title = playlistDictionary["title"] as! String!
-        description = playlistDictionary["description"] as! String!
+        title = worldDictionary["title"] as! String!
+        description = worldDictionary["description"] as! String!
         
-        let iconName = playlistDictionary["icon"] as! String!
+        let iconName = worldDictionary["icon"] as! String!
         icon = UIImage(named: iconName)
         
-        let largeIconName = playlistDictionary["largeIcon"] as! String!
+        let largeIconName = worldDictionary["largeIcon"] as! String!
         largeIcon = UIImage(named: largeIconName)
         
-        artists += playlistDictionary["artists"] as! [String]
+        artists += worldDictionary["artists"] as! [String]
         
-        let colorsDictionary = playlistDictionary["backgroundColor"] as! [String:CGFloat]
+        let colorsDictionary = worldDictionary["backgroundColor"] as! [String:CGFloat]
         backgroundColor = rgbColorFromDictionary(colorsDictionary)
         
     }
