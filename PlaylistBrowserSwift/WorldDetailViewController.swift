@@ -14,9 +14,9 @@ class WorldDetailViewController: UIViewController {
     @IBOutlet weak var worldTitle: UILabel!
     @IBOutlet weak var worldDescription: UILabel!
     
-    @IBOutlet weak var worldArtist0: UILabel!
-    @IBOutlet weak var worldArtist1: UILabel!
-    @IBOutlet weak var worldArtist2: UILabel!
+//    @IBOutlet weak var worldArtist0: UILabel!
+//    @IBOutlet weak var worldArtist1: UILabel!
+//    @IBOutlet weak var worldArtist2: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,9 @@ class WorldDetailViewController: UIViewController {
             // worldArtist2.text = world!.artists[2]
             
         }
+        
+        
+
         
     }
 
