@@ -222,6 +222,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="currentContext" id="l1F-RV-kBj" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="8eI-31-6ta"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="hJV-kZ-CTh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -293,6 +294,15 @@
                                     <constraint firstAttribute="width" secondItem="Kqa-Iv-ZOC" secondAttribute="height" multiplier="8:3" constant="80" id="ycP-pX-Qyk"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-Bh-o6p">
+                                <rect key="frame" x="213" y="145" width="143" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button to main menu"/>
+                                <connections>
+                                    <segue destination="l1F-RV-kBj" kind="modal" identifier="showMainMenu" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="hw6-4o-w5d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.1764705882" green="0.1843137255" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -301,7 +311,9 @@
                             <constraint firstAttribute="trailing" secondItem="Kqa-Iv-ZOC" secondAttribute="trailing" id="6eW-gR-Gze"/>
                             <constraint firstItem="Kqa-Iv-ZOC" firstAttribute="bottom" secondItem="Tet-Cg-R0B" secondAttribute="bottom" constant="59" id="OP6-Tb-PM6"/>
                             <constraint firstAttribute="trailing" secondItem="Tet-Cg-R0B" secondAttribute="trailing" id="ZZg-tS-4OJ"/>
+                            <constraint firstItem="k9b-Bh-o6p" firstAttribute="centerY" secondItem="KHF-Q7-lwK" secondAttribute="centerY" id="aFk-gY-0H4"/>
                             <constraint firstItem="Kqa-Iv-ZOC" firstAttribute="leading" secondItem="KHF-Q7-lwK" secondAttribute="leading" id="brP-jo-GQB"/>
+                            <constraint firstItem="k9b-Bh-o6p" firstAttribute="centerX" secondItem="KHF-Q7-lwK" secondAttribute="centerX" id="oCn-YS-4KY"/>
                             <constraint firstItem="Tet-Cg-R0B" firstAttribute="top" secondItem="wH0-nr-GHA" secondAttribute="bottom" constant="44" id="wcR-fo-t0y"/>
                         </constraints>
                     </view>

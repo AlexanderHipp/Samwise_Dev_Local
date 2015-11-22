@@ -15,7 +15,6 @@ class IntroDetailViewController: UIViewController {
     @IBOutlet weak var worldCoverImage: UIImageView!
     @IBOutlet weak var worldTitle: UILabel!
     @IBOutlet weak var worldDescription: UILabel!
-    
 
     
     override func viewDidLoad() {
@@ -34,6 +33,8 @@ class IntroDetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+ 
     
     
 }
