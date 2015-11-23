@@ -16,6 +16,7 @@
 		971C74BF1A6431F8001BD772 /* WorldDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971C74BE1A6431F8001BD772 /* WorldDetailViewController.swift */; };
 		97DE27241A6468E00006DCD7 /* ColorLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE27231A6468E00006DCD7 /* ColorLibrary.swift */; };
 		97DE27261A646D6C0006DCD7 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DE27251A646D6C0006DCD7 /* World.swift */; };
+		FA0342131C022A11005D16CB /* IntroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0342121C022A11005D16CB /* IntroDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		971C74BE1A6431F8001BD772 /* WorldDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldDetailViewController.swift; sourceTree = "<group>"; };
 		97DE27231A6468E00006DCD7 /* ColorLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorLibrary.swift; sourceTree = "<group>"; };
 		97DE27251A646D6C0006DCD7 /* World.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = World.swift; sourceTree = "<group>"; };
+		FA0342121C022A11005D16CB /* IntroDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroDetailViewController.swift; path = ../IntroDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				971C749C1A6424D2001BD772 /* AppDelegate.swift */,
 				971C749E1A6424D2001BD772 /* WorldMasterViewController.swift */,
 				971C74BE1A6431F8001BD772 /* WorldDetailViewController.swift */,
+				FA0342121C022A11005D16CB /* IntroDetailViewController.swift */,
 				97DE27231A6468E00006DCD7 /* ColorLibrary.swift */,
 				97DE27251A646D6C0006DCD7 /* World.swift */,
 				971C74A01A6424D2001BD772 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 				971C749F1A6424D2001BD772 /* WorldMasterViewController.swift in Sources */,
 				971C749D1A6424D2001BD772 /* AppDelegate.swift in Sources */,
 				97DE27241A6468E00006DCD7 /* ColorLibrary.swift in Sources */,
+				FA0342131C022A11005D16CB /* IntroDetailViewController.swift in Sources */,
 				97DE27261A646D6C0006DCD7 /* World.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
