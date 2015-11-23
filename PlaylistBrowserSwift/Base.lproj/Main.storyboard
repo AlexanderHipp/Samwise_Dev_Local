@@ -294,11 +294,13 @@
                                     <constraint firstAttribute="width" secondItem="Kqa-Iv-ZOC" secondAttribute="height" multiplier="8:3" constant="80" id="ycP-pX-Qyk"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-Bh-o6p">
-                                <rect key="frame" x="213" y="145" width="143" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9b-Bh-o6p">
+                                <rect key="frame" x="172" y="136" width="224" height="47"/>
                                 <animations/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Button to main menu"/>
+                                <state key="normal" title="Button to main menu">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <segue destination="l1F-RV-kBj" kind="modal" identifier="showMainMenu" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="hw6-4o-w5d"/>
                                 </connections>
